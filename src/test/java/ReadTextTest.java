@@ -10,7 +10,7 @@ public class ReadTextTest {
     WordStopText stopWord = new WordStopText();
 
     @Test
-    public void countTWordTextTest() {
+    public void countWordTextTest() {
         assertEquals(100, text.countWordText());
     }
 
