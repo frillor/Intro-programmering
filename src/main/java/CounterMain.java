@@ -14,8 +14,7 @@ public class CounterMain {
             counter.getNumberCharacter(text);
             counter.getNumberRad(text);
 
-            if (text.contains("stop")
-            ) {
+            if (text.contains("stop")) {
                 value = true;
             }
         }

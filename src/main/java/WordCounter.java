@@ -26,7 +26,7 @@ public class WordCounter {
 
     public Integer getNumberRad(String text) {
         if (text != null) {
-            if (text.contains("stop")) {
+            if (text.contains("stop")){
                 System.out.println("Numbers of roads in the text without word stop " + rad);
                 return rad;
 

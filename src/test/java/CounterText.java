@@ -8,7 +8,6 @@ public class CounterText {
 
     WordCounter text = new WordCounter();
 
-
     @Test
     public void countWordTextTest() {
         assertEquals(6, text.getNumberCharacter("Hello stop"));
